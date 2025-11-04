@@ -1,11 +1,13 @@
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "schooly.firebaseapp.com",
-  projectId: "schooly"
+  apiKey: "AIzaSyCeGLtPoFiCWFEqJT1eS9e8VkTpfbki46I",
+  authDomain: "schooly-701f5.firebaseapp.com",
+  projectId: "schooly-701f5"
 };
+
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const db = firebase.firestore();
+
 
 document.getElementById("loginForm").addEventListener("submit", function(e) {
   e.preventDefault();
