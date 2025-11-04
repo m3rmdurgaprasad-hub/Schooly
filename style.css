@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.login-box, .admin-box, .student-box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+input, select {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+}
+button {
+  background: #0078d4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 10px 0;
+}
